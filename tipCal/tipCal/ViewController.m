@@ -55,19 +55,28 @@ float billToFloat;
 
 
 - (IBAction)fifteenPercentCal:(id)sender {
-    float tipTotal = ((billToFloat * 18) / 100);
+    float tipTotal = ((billToFloat * 15) / 100);
     NSString *buttonTitle = [[NSNumber numberWithFloat:tipTotal] stringValue];
     [(UIButton *)sender setTitle:buttonTitle  forState:UIControlEventTouchUpInside];
 }
 
 
 - (IBAction)eighteenPercentCal:(id)sender {
+    float tipTotal = ((billToFloat * 18) / 100);
+    NSString *buttonTitle = [[NSNumber numberWithFloat:tipTotal] stringValue];
+    [(UIButton *)sender setTitle:buttonTitle  forState:UIControlEventTouchUpInside];
 }
 
 - (IBAction)twentyPercentCal:(id)sender {
+    float tipTotal = ((billToFloat * 20) / 100);
+    NSString *buttonTitle = [[NSNumber numberWithFloat:tipTotal] stringValue];
+    [(UIButton *)sender setTitle:buttonTitle  forState:UIControlEventTouchUpInside];
 }
 
 - (IBAction)thirthyPercentCal:(id)sender {
+    float tipTotal = ((billToFloat * 30) / 100);
+    NSString *buttonTitle = [[NSNumber numberWithFloat:tipTotal] stringValue];
+    [(UIButton *)sender setTitle:buttonTitle  forState:UIControlEventTouchUpInside];
 }
 
 
